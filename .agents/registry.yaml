@@ -1,0 +1,71 @@
+version: 0.1.0
+project:
+  name: construction-operating-group-plan
+  purpose: Build a repeatable blueprint for partnering with, improving, and potentially acquiring owner-operated construction trade businesses.
+canonical_files:
+  vision: 00-overview/vision.md
+  participants: 00-overview/participants.md
+  assumptions: 00-overview/assumptions.md
+  open_questions: 00-overview/open-questions.md
+  owner_partner_profile: 01-strategy/owner-partner-profile.md
+  first_call_script: 01-strategy/first-call-script.md
+  kpi_scorecard: 02-operations/kpi-scorecard.md
+  baseline_data_request: 04-finance/baseline-data-request.md
+  owner_partner_pitch: 05-sales-marketing/owner-partner-pitch.md
+  referral_partner_pitch: 05-sales-marketing/referral-partner-pitch.md
+  decision_log: 07-execution-plan/decision-log.md
+  roadmap: 07-execution-plan/roadmap.md
+  launch_plan_30_60_90: 07-execution-plan/30-60-90-launch-plan.md
+  readiness_checklist: 07-execution-plan/first-version-readiness-checklist.md
+  investor_deck: 08-investor-materials/executive-slide-deck.md
+skills:
+  - name: business-plan-synthesis
+    path: .agents/skills/business-plan-synthesis/SKILL.md
+    use_when:
+      - turning founder notes into plan sections
+      - reconciling related plan files
+      - creating a structured business blueprint
+  - name: assumption-management
+    path: .agents/skills/assumption-management/SKILL.md
+    use_when:
+      - extracting assumptions
+      - validating targets
+      - identifying evidence needed
+  - name: decision-logging
+    path: .agents/skills/decision-logging/SKILL.md
+    use_when:
+      - a strategic or operating choice is made
+      - an option is rejected
+      - reversibility matters
+  - name: voice-note-processing
+    path: .agents/skills/voice-note-processing/SKILL.md
+    use_when:
+      - processing dictated notes
+      - separating ideas from decisions
+      - extracting tasks from voice sessions
+  - name: agent-orchestration
+    path: .agents/skills/agent-orchestration/SKILL.md
+    use_when:
+      - creating work for multiple agents
+      - assigning bounded research streams
+      - preventing agents from overlapping writes
+  - name: investor-storytelling
+    path: .agents/skills/investor-storytelling/SKILL.md
+    use_when:
+      - creating investor materials
+      - writing executive summaries
+      - explaining the acquisition platform thesis
+prompts:
+  operator_chief_of_staff: .agents/prompts/operator-chief-of-staff.md
+  market_research_agent: .agents/prompts/market-research-agent.md
+  acquisition_screening_agent: .agents/prompts/acquisition-screening-agent.md
+  finance_agent: .agents/prompts/finance-agent.md
+  operations_agent: .agents/prompts/operations-agent.md
+  people_systems_agent: .agents/prompts/people-systems-agent.md
+  investor_deck_agent: .agents/prompts/investor-deck-agent.md
+templates:
+  agent_task_brief: .agents/templates/agent-task-brief.md
+  assumption_record: .agents/templates/assumption-record.md
+  decision_record: .agents/templates/decision-record.md
+  research_brief: .agents/templates/research-brief.md
+  session_summary: .agents/templates/session-summary.md
