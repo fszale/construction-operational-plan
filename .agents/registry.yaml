@@ -3,6 +3,7 @@ project:
   name: construction-operating-group-plan
   purpose: Build a repeatable blueprint for partnering with, improving, and potentially acquiring owner-operated construction trade businesses.
 canonical_files:
+  current_facts: .agents/context/current-facts.md
   vision: 00-overview/vision.md
   participants: 00-overview/participants.md
   assumptions: 00-overview/assumptions.md
@@ -55,6 +56,33 @@ skills:
       - creating investor materials
       - writing executive summaries
       - explaining the acquisition platform thesis
+  - name: founder-context-ingestion
+    path: .agents/skills/founder-context-ingestion/SKILL.md
+    use_when:
+      - updating the plan with new founder context
+      - changing geography, roles, availability, or decisions
+      - removing stale conflicting context
+  - name: github-readiness-maintenance
+    path: .agents/skills/github-readiness-maintenance/SKILL.md
+    use_when:
+      - preparing the repo for GitHub
+      - validating Markdown links
+      - converting local paths to relative links
+      - checking registry paths
+  - name: launch-sequence-maintenance
+    path: .agents/skills/launch-sequence-maintenance/SKILL.md
+    use_when:
+      - updating the 30/60/90 launch plan
+      - reviewing launch blockers
+      - assigning next actions
+      - maintaining readiness gates
+  - name: stakeholder-validation
+    path: .agents/skills/stakeholder-validation/SKILL.md
+    use_when:
+      - preparing team validation
+      - creating review agendas
+      - capturing stakeholder feedback
+      - turning feedback into plan updates
 prompts:
   operator_chief_of_staff: .agents/prompts/operator-chief-of-staff.md
   market_research_agent: .agents/prompts/market-research-agent.md
@@ -63,9 +91,15 @@ prompts:
   operations_agent: .agents/prompts/operations-agent.md
   people_systems_agent: .agents/prompts/people-systems-agent.md
   investor_deck_agent: .agents/prompts/investor-deck-agent.md
+  founder_context_update_agent: .agents/prompts/founder-context-update-agent.md
+  github_readiness_agent: .agents/prompts/github-readiness-agent.md
+  stakeholder_validation_agent: .agents/prompts/stakeholder-validation-agent.md
+  launch_sequence_agent: .agents/prompts/launch-sequence-agent.md
 templates:
   agent_task_brief: .agents/templates/agent-task-brief.md
   assumption_record: .agents/templates/assumption-record.md
   decision_record: .agents/templates/decision-record.md
   research_brief: .agents/templates/research-brief.md
   session_summary: .agents/templates/session-summary.md
+  stakeholder_feedback: .agents/templates/stakeholder-feedback.md
+  launch_review_agenda: .agents/templates/launch-review-agenda.md

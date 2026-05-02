@@ -11,7 +11,7 @@ Goal: turn the concept into a contributor-ready plan.
 - draft investor narrative
 - identify legal and financial review needs
 
-Current execution detail: [30-60-90-launch-plan.md](/Users/fszale/projects/personal/construction-operational-plan/07-execution-plan/30-60-90-launch-plan.md).
+Current execution detail: [30-60-90-launch-plan.md](30-60-90-launch-plan.md).
 
 ## Phase 1: Search And Screening
 

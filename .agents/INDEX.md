@@ -6,6 +6,10 @@
 - `instructions/contribution-rules.md`: how humans and agents should contribute.
 - `instructions/session-closeout.md`: what to update at the end of meaningful sessions.
 
+## Current Context
+
+- `context/current-facts.md`: stable facts future agents should treat as current unless updated.
+
 ## Canonical Launch Files
 
 - `../07-execution-plan/30-60-90-launch-plan.md`: current launch sequence.
@@ -25,6 +29,10 @@
 - `skills/voice-note-processing/SKILL.md`: convert dictated notes into structured artifacts.
 - `skills/agent-orchestration/SKILL.md`: create bounded task briefs for parallel agents.
 - `skills/investor-storytelling/SKILL.md`: translate the plan into an investor-ready narrative.
+- `skills/founder-context-ingestion/SKILL.md`: propagate new founder context through the plan.
+- `skills/github-readiness-maintenance/SKILL.md`: keep Markdown links and registry paths GitHub-ready.
+- `skills/launch-sequence-maintenance/SKILL.md`: update the 30/60/90 plan and readiness gates.
+- `skills/stakeholder-validation/SKILL.md`: prepare review agendas and process stakeholder feedback.
 
 ## Prompts
 
@@ -35,6 +43,10 @@
 - `prompts/operations-agent.md`
 - `prompts/people-systems-agent.md`
 - `prompts/investor-deck-agent.md`
+- `prompts/founder-context-update-agent.md`
+- `prompts/github-readiness-agent.md`
+- `prompts/stakeholder-validation-agent.md`
+- `prompts/launch-sequence-agent.md`
 
 ## Templates
 
@@ -43,6 +55,8 @@
 - `templates/decision-record.md`
 - `templates/research-brief.md`
 - `templates/session-summary.md`
+- `templates/stakeholder-feedback.md`
+- `templates/launch-review-agenda.md`
 
 ## Artifacts
 

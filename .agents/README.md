@@ -14,6 +14,7 @@
 
 1. Read `INDEX.md`.
 2. Read `registry.yaml`.
-3. Select relevant skills based on `use_when` and skill frontmatter.
-4. Use prompts and templates when creating new artifacts.
-5. At closeout, update reusable session learning when the session produced durable patterns.
+3. Read `context/current-facts.md` for stable current context.
+4. Select relevant skills based on `use_when` and skill frontmatter.
+5. Use prompts and templates when creating new artifacts.
+6. At closeout, update reusable session learning when the session produced durable patterns.

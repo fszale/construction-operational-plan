@@ -17,6 +17,7 @@ Created the initial project scaffold for the construction operating group plan, 
 - Mermaid diagrams are useful when they clarify operating loops, stage gates, role boundaries, and investor proof paths.
 - Incentive design should treat the platform as a repeated game with staged commitments, transparent scorekeeping, bounded downside, and shared upside.
 - The first version needs owner-partner profile, KPI scorecard, baseline data request, readiness checklist, and 30/60/90 launch sequence to become actionable.
+- Future agents should use `founder-context-ingestion`, `launch-sequence-maintenance`, `stakeholder-validation`, and `github-readiness-maintenance` for recurring project maintenance.
 
 ## Assumptions Added
 

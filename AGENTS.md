@@ -6,11 +6,12 @@ This repository is designed for Codex and other agents to collaborate with human
 
 Before substantial work, read:
 
-1. [README.md](/Users/fszale/projects/personal/construction-operational-plan/README.md)
-2. [.agents/README.md](/Users/fszale/projects/personal/construction-operational-plan/.agents/README.md)
-3. [.agents/INDEX.md](/Users/fszale/projects/personal/construction-operational-plan/.agents/INDEX.md)
-4. [.agents/registry.yaml](/Users/fszale/projects/personal/construction-operational-plan/.agents/registry.yaml)
-5. Any task-relevant `.agents/skills/<skill-name>/SKILL.md`
+1. [README.md](README.md)
+2. [.agents/README.md](.agents/README.md)
+3. [.agents/INDEX.md](.agents/INDEX.md)
+4. [.agents/registry.yaml](.agents/registry.yaml)
+5. [.agents/context/current-facts.md](.agents/context/current-facts.md)
+6. Any task-relevant `.agents/skills/<skill-name>/SKILL.md`
 
 `.agents/` is the canonical project-local agent operating layer.
 

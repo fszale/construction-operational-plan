@@ -46,7 +46,7 @@ The goal is not to bolt together random trades. The goal is to create a trusted 
 
 The business model only works if cooperation is rational for every major participant. The owner should gain time, income, dignity, and upside. The operating team should be compensated for real work and value creation. Workers should gain stability, higher earnings, training, and a career path. Customers should receive better service. Investors should receive de-risked exposure to measurable cash-flow improvement.
 
-See [01-strategy/incentive-design.md](/Users/fszale/projects/personal/construction-operational-plan/01-strategy/incentive-design.md) for the game-theory design.
+See [01-strategy/incentive-design.md](../01-strategy/incentive-design.md) for the game-theory design.
 
 ## Business Model Path
 
